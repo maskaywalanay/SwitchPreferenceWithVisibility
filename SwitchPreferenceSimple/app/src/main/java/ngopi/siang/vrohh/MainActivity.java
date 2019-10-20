@@ -3,6 +3,7 @@ package ngopi.siang.vrohh;
 import android.app.*;
 import android.os.*;
 import android.view.*;
+import android.content.*;
 
 public class MainActivity extends Activity 
 {
@@ -24,7 +25,7 @@ public class MainActivity extends Activity
 	public boolean onOptionsItemSelected(MenuItem item)
 	{
 		if(item.getItemId() == R.id.item){
-			
+			startActivity(new Intent(this,SwitchPreferenceSimple.class));
 		}
 		return super.onOptionsItemSelected(item);
 	}
