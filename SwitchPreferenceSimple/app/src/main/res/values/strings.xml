@@ -3,5 +3,8 @@
 
     <string name="app_name">SwitchPreferenceSimple</string>
     <string name="hello_world">Hello world!</string>
-
+	<string name="switch_title">Switch Preference Simple</string>
+	<string name="switch_summary_on">Target Object Show</string>
+	<string name="switch_summary_off">Target Object Hide</string>
+	
 </resources>
